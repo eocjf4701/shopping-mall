@@ -9,14 +9,14 @@
   justify-content: center;
 }
 
-.menu-list {
-  display: flex;
-  list-style-type: none;
-}
-
 .menu-area {
   display: flex;
   justify-content: center;
+}
+
+.menu-list {
+  display: flex;
+  list-style-type: none;
 }
 
 .menu-list li {

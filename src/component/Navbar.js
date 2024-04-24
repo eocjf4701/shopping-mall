@@ -8,11 +8,9 @@ const Navbar = () => {
   const menuList = ['여성', 'Divided', '남성', '신생아/유아', '아동', 'H&M HOME', 'Sale', '지속가능성'];
   return (
     <div>
-      <div>
-        <div className='login-button'>
-          <FontAwesomeIcon icon={faUser} />
-          <div>로그인</div>
-        </div>
+      <div className='login-button'>
+        <FontAwesomeIcon icon={faUser} />
+        <div>로그인</div>
       </div>
       <div className='nav-section'>
         <img src='https://zenprospect-production.s3.amazonaws.com/uploads/pictures/64b1bd56b5fd5f00018372c2/picture' width={150} />
