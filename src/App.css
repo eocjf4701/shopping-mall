@@ -8,3 +8,39 @@
   display: flex;
   justify-content: center;
 }
+
+.menu-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu-area {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-list li {
+  padding: 10px;
+}
+
+.menu-search {
+  position: fixed;
+  right: 10px;
+}
+
+.menu-search-divide {
+  position: relative;
+}
+
+.menu-search-divide input {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.menu-search-divide .menu-search-divide-icon {
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  right: 5px;
+}
