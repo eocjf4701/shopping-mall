@@ -11,11 +11,10 @@ import PrivateRoute from './route/PrivateRoute';
 function App() {
   const [authenticate, setAuthenticate] = useState(false);
   useEffect(() => {
-    console.log("authen -> ", authenticate);
   }, [authenticate]);
   return (
     <div>
-      <Navbar />
+      <Navbar authenticate={authenticate} />
       <Routes>
         <Route path="/" element={<ProductAll />} />
         <Route path="/login" element={<Login setAuthenticate={setAuthenticate} />} />
