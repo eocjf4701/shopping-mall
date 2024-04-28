@@ -52,3 +52,8 @@
   transition: transform 0.3s ease;
   /* 부드러운 전환 효과를 추가할 수 있습니다. */
 }
+
+.product-img {
+  display: flex;
+  justify-content: flex-end;
+}
